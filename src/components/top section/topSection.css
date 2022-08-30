@@ -1,0 +1,140 @@
+.top__container {
+    background: url('../../images/img.jpg') no-repeat center center/cover;
+    width: 80%;
+    height: 30rem;
+    margin-top: 2.5rem;
+}
+
+.top__container h4 {
+    font-size: 2.5em;
+    color: var(--color-brn);
+    text-align: center;
+    padding-top: 2rem;
+}
+
+.top__container h3 {
+    font-size: 2.5em;
+    text-align: center;
+    color: var(--color-bg);
+    margin-bottom: 3rem;
+}
+
+.top__container p {
+    font-size: 0.8em;
+    color: var(--color-bg);
+    margin-left: 24rem;
+    width: 20rem;
+    text-align: center;
+}
+
+
+/* .top__container .account a {
+    background: rgb(239, 177, 6);
+    color: var(--color-bg);
+    font-size: 0.8em;
+    padding: 0.6rem 2rem;
+    border-radius: 1rem;
+    transition: var(--transition-one);
+
+} */
+
+/* .top__container .account a:hover {
+    background: burlywood;
+} */
+
+.create {
+    color: var(--color-bg);
+    background: orange;
+    font-size: 0.6em;
+    padding: 0.5rem 2rem;
+    width: 8rem;
+    margin-left: 30rem;
+    margin-top: 3rem;
+    border-radius: 0.2rem;
+}
+
+.create:hover {
+    background: burlywood;
+    transition: var(--transition-one);
+}
+
+.account__container {
+    margin-top: 2.5rem;
+    padding-top: 8rem;
+    text-align: center;
+    background-color: rgb(243, 216, 180);
+    height: 40vw;
+}
+
+.account__container h3 {
+    color: var(--color-brn);
+    font-size: 1.8em;
+    margin-bottom: 2.5rem;
+}
+
+.account__container .inputs {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 22%;
+    margin-left: 26.3rem;
+    margin-bottom: 0.5rem;
+}
+
+
+.account__container .inputs input {
+    border: 1px var burlywood solid;
+    /* background: var(--color-brn); */
+    padding: 0.5rem;
+    border-radius: 0.4rem;
+}
+
+
+.account__container small {
+    color: var(--color-brn);
+}
+
+.account__container small a {
+    color: white;
+    text-decoration: underline;
+
+}
+
+.account__container small a:hover {
+    background: none;
+    color: var(--color-brn);
+    transition: var(--transition-one);
+}
+
+@media screen and (max-width: 1024px) {
+    .top__container {
+        width: 85%;
+    }
+
+    .top__container h4 {
+        font-size: 2.1em;
+        margin-left: 1rem;
+    }
+
+    .top__container h3 {
+        font-size: 2.1em;
+        margin-left: 1.1rem;
+        margin-bottom: 1.8rem;
+    }
+
+    .top__container p {
+        font-size: 0.7em;
+        margin-left: 17rem;
+    }
+
+    .create {
+        margin-left: 23rem;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    .top__container {
+        width: 90%;
+    }
+}

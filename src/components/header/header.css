@@ -1,0 +1,105 @@
+.nav__container-large {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2rem;
+
+}
+
+.nav__container-large p {
+    color: #a52a2a;
+
+}
+
+.nav__container-large p span {
+    color: burlywood;
+}
+
+.nav__container .list-items {
+    display: flex;
+    gap: 4rem;
+    align-items: center;
+}
+
+.nav__container-large .list-items .signup a {
+    background: burlywood;
+    padding: 0.3rem;
+}
+
+.nav__container-small {
+    display: none;
+}
+
+@media screen and (max-width: 1024px) {
+    .nav__container .list-items {
+        gap: 2rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .nav__container-large {
+        display: none;
+    }
+
+    .container .nav__container-small {
+        display: block;
+        margin: 1rem 0;
+        width: 100%;
+    }
+
+    .show-btn {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+    }
+
+    .show-btn p {
+        color: #a52a2a;
+
+    }
+
+    .show-btn span {
+        color: burlywood;
+
+    }
+
+    .show-btn .show {
+        color: burlywood;
+    }
+
+    .nav-btn {
+        background: rgb(246, 219, 183);
+        position: absolute;
+        top: -100%;
+        width: 90%;
+        transition: var(--transition-two);
+        padding: 2rem 4rem 2rem 6.5rem;
+
+    }
+
+
+    .nav-btn.active {
+        top: 10%;
+
+    }
+
+    .list-items {
+        display: flex;
+        gap: 5rem;
+    }
+
+    .list-items .signup a {
+        color: #a52a2a;
+        background: transparent;
+        padding: 0.3rem;
+        border: 1px #a52a2a solid;
+        border-radius: 0.1rem;
+    }
+
+    .list-items a:hover {
+        color: burlywood;
+        background: #a52a2a;
+        transition: var(--transition-one);
+    }
+}
