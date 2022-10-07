@@ -1,0 +1,23 @@
+.visual__container p {
+    font-size: 1.5em;
+    font-weight: bold;
+    text-align: center;
+    color: var(--color-brn);
+    margin-bottom: 1rem;
+}
+
+.vis_slider {}
+
+.vis_slider .img {
+    display: flex;
+    gap: 2rem;
+    width: 100%;
+
+}
+
+.vis_slider .img img {
+    width: 80%;
+    height: 33rem;
+    object-fit: cover;
+    object-position: center;
+}

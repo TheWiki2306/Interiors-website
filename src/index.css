@@ -18,6 +18,10 @@
   --container-width-sm: 90%;
 }
 
+body {
+  background: rgb(246, 240, 233);
+}
+
 html {
   scroll-behavior: smooth;
 }

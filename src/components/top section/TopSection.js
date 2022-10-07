@@ -1,11 +1,10 @@
 import React from 'react';
 import './topSection.css';
 import CreateAccount from './CreateAccount';
-import { Link } from 'react-router-dom';
 
 const TopSection = () => {
     return (
-        <div id='topsection'>
+        <div>
             <article className="container top__container">
                 <h4>Best Interior design</h4>
                 <h3>concepts you'll need!</h3>
