@@ -1,6 +1,7 @@
 .nav__container-large {
     display: flex;
     justify-content: space-between;
+    /* width: 100%; */
     align-items: center;
     margin-top: 2rem;
 
@@ -16,9 +17,10 @@
 }
 
 .nav__container .list-items {
-    display: flex;
+    /* display: flex;
     gap: 4rem;
-    align-items: center;
+    align-items: center; */  
+    width: 100%;
 }
 
 .nav__container-large .list-items .signup a {

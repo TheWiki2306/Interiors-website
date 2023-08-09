@@ -11,22 +11,29 @@ const Header = () => {
                 <div className="nav__container-large">
                     <p>Fi<span>Design</span></p>
 
-                    <ul className="list-items">
+                    <div className="list-items">
                         <Link to="/">
-                            <li>Home</li>
+                            Home
                         </Link>
                         <Link to="/projects">
-                            <li>Works</li>
+                            Works
                         </Link>
-                        <li>Services</li>
-                        <li>Contact us</li>
-                        <li>News</li>
+                        <Link>
+                            Services
+                        </Link> 
+                       <Link>
+                            Contact us
+                        </Link> 
+                        <Link>
+                            News
+                        </Link>
+                        
                         <div className="signup">
                             <Link to="/signup">
                                 Sign up
                             </Link>
                         </div>
-                    </ul>
+                    </div>
                 </div>
                 <SmallContainer />
 
